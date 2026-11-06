@@ -6,3 +6,4 @@ stage('Docker image') {
         sh 'docker images ${APP_NAME}'
     }
 }
+
